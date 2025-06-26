@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020", /* Specify ECMAScript target version */
+    "module": "commonjs", /* Specify module code generation */
+    "rootDir": "./src", /* Specify the root directory of input files */
+    "outDir": "./dist", /* Redirect output structure to the directory */
+    "esModuleInterop": true, /* Enables `allowSyntheticDefaultImports` for CommonJS/ESM interop */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is consistent on disk */
+    "strict": true, /* Enable all strict type-checking options */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files */
+    "noImplicitAny": true, /* Prevent compiler implicitly assigning `any` type when inferred */
+    "strictNullChecks": true, /* Enhance type safety by treating null and undefined as distinct types */
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,15 @@
+.container {
+  border-color: lightgray;
+}
+
+.container p {
+  font-style: italic;
+}
+
+.entry {
+  text-align: left;
+}
+
+.selected {
+  background-color: green;
+}
